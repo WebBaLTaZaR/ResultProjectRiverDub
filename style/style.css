@@ -162,7 +162,7 @@ body {
   gap: 20px;
 }
 
-.content img {
+.newsImg {
   width: 300px;
   height: 300px;
 }
@@ -186,4 +186,36 @@ footer {
 footer img {
   width: 20px;
   height: 20px;
+}
+
+.videoWrap {
+  position: relative;
+}
+
+.shortVideo {
+  width: 400px;
+  height: 230px;
+}
+
+.buttonsVideo img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.buttonsVideo .buttonPlayPause {
+  position: absolute;
+  top: 73%;
+  left: 7%;
+}
+
+.buttonsVideo .buttonFullscreen {
+  position: absolute;
+  top: 74%;
+  left: 82%;
+}
+
+.videoTitle {
+  font-size: 28px;
+  text-transform: uppercase;
 }

@@ -1,0 +1,29 @@
+.videoWrap {
+  position: relative;
+}
+.shortVideo {
+  width: 400px;
+  height: 230px;
+}
+
+.buttonsVideo {
+  img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .buttonPlayPause {
+    position: absolute;
+    top: 73%;
+    left: 7%;
+  }
+  .buttonFullscreen {
+    position: absolute;
+    top: 74%;
+    left: 82%;
+  }
+}
+.videoTitle {
+  font-size: 28px;
+  text-transform: uppercase;
+}
