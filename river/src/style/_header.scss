@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  justify-content: center;
+  background-color: #260d13;
+  * {
+    cursor: pointer;
+    padding: 15px 30px;
+  }
+}
