@@ -1,4 +1,7 @@
 .header {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   display: flex;
   align-items: center;
   font-size: 28px;
@@ -7,5 +10,8 @@
   * {
     cursor: pointer;
     padding: 15px 30px;
+  }
+  .nav{
+    transition: background-color 0.3s ease-in-out;
   }
 }

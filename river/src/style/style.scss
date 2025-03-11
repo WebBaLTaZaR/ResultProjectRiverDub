@@ -2,10 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&display=swap");
 body {
   background-color: #2d1319;
-  font-family: "Amatic SC", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+}
+.button {
+  padding: 7px 10px;
+  border-radius: 10px;
 }
 @import "header.scss";
 @import "main.scss";
+@import "autorization.scss";
 @import "footer.scss";
